@@ -1,0 +1,19 @@
+blog/
+├── public/                 
+│   └── images/                
+├── src/
+│   ├── components/             <-- Your reusable "Lego blocks"
+│   │   ├── Sidebar.astro       <-- The red left navigation menu
+│   │   ├── Header.astro        <-- The yellow top bar with your name
+│   │   └── LatestSidebar.astro <-- The white "Latest" box on the right
+│   ├── layouts/                <-- The skeleton that wraps around your content
+│   │   └── BlogPostLayout.astro 
+│   ├── pages/                  <-- The actual URLs of your website
+│   │   ├── index.astro         <-- Your homepage (yoursite.com/)
+│   │   └── posts/              
+│   │       ├── pytorch-vs-cuda.md <--
+│   │       └── my-second-post.md 
+│   └── styles/
+│       └── global.css          
+├── astro.config.mjs            <-- Astro's settings file
+└── package.json
